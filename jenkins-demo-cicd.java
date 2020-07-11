@@ -15,7 +15,7 @@ node {
 		    
 		sh '''
 			whoami
-			pwd
+			 cp ./index.html /var/www/html/index.html
       sudo service apache2 restart
 		'''	
         }
