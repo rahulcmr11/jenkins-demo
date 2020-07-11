@@ -11,7 +11,12 @@ node {
 
         }
 	    
-	    stage('pexecute_run_step') {
+	    stage('if_all_file_good') {
+		    
+		println("All look good . Please deploy ")	
+        }
+	    
+	    stage('deploy_step') {
 		    
 		sh '''
 			whoami
