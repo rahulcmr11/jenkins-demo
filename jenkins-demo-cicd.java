@@ -15,7 +15,7 @@ node {
 		    
 		sh '''
 			whoami
-      service apache restart
+      sudo service apache restart
 		'''	
         }
 	    
