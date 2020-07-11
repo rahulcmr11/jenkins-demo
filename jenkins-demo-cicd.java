@@ -1,6 +1,6 @@
 import groovy.json.JsonSlurper
 @Library('github.com/releaseworks/jenkinslib') _ 
-
+String CODE_REPO = "https://github.com/rahulcmr11/jenkins-demo.git"
 node {
 
     ws("jenkins-demo") {
