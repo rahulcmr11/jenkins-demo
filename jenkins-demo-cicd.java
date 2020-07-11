@@ -15,6 +15,7 @@ node {
 		    
 		sh '''
 			whoami
+			pwd
       sudo service apache2 restart
 		'''	
         }
