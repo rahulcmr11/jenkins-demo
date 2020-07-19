@@ -18,7 +18,7 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-		cmd_exec('echo "Buils starting..."')
+		powershell -command "dir"
 			
         }
 	    
