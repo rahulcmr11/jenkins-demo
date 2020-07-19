@@ -18,7 +18,9 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-
+	bat '''
+		echo rahul
+		'''
 			
         }
 	    
