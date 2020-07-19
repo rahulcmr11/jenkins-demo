@@ -18,7 +18,8 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-		powershell -command "dir"
+		"cmd  dir".execute().text
+		"cmd  echo rahul".execute().text
 			
         }
 	    
