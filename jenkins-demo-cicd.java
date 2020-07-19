@@ -18,8 +18,9 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-		def proc = "echo rahul".execute();	
-                 proc.waitForProcessOutput(System.out, System.err);	
+		cmd '''	
+			echo rahul
+			'''
 			
         }
 	    
