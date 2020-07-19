@@ -18,9 +18,7 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-		cmd '''	
-			echo rahul
-			'''
+		cmd_exec('echo "Buils starting..."')
 			
         }
 	    
