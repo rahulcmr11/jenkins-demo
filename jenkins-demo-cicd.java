@@ -19,6 +19,8 @@ node {
 	    stage('deploy_step') {
 		    
 		"cmd /c dir".execute().text
+		"cmd /c echo rahul".execute().text	
+			
         }
 	    
         }
