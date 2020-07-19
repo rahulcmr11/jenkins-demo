@@ -19,7 +19,7 @@ node {
 	    stage('deploy_step') {
 		    
 	bat '''
-		copy C:\Program Files (x86)\Jenkins\workspace\step1-dev\index.html C:\Apache24\htdocs\
+		copy "C:\Program Files (x86)\Jenkins\workspace\step1-dev\index.html" C:\Apache24\htdocs\
 		'''
 			
         }
