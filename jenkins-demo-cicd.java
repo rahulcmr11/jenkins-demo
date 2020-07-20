@@ -18,8 +18,10 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-	bat'''
-		copy "C:\\Program Files (x86)\\Jenkins\\workspace\\step1-dev\\index.html" C:\\Apache24\\htdocs\\ /Y
+	sh '''
+			whoami
+			 sudo cp ./index.html /var/www/html/index.html
+      sudo service apache2 restart
 		'''
 			
         }
