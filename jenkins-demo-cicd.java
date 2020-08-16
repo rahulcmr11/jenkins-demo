@@ -13,7 +13,7 @@ node {
 	    
 	    stage('if_all_file_good') {
 		    
-		println("All look good . Please deploy )	
+		println("All look good . Please deploy")	
         }
 	    
 	    stage('deploy_step') {
