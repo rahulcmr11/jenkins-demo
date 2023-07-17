@@ -18,13 +18,7 @@ node {
 	    
 	    stage('deploy_step') {
 		    
-	sh '''
-
-			
-		echo "Files are republished"
-		        
-     
-		'''
+	println("New file published")
 			
         }
 	    
