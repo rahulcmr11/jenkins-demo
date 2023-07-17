@@ -23,7 +23,7 @@ node {
 			
 		echo "Files are republished"
 		        
-      #sudo service apache2 restart
+     
 		'''
 			
         }
