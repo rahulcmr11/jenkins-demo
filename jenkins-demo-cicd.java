@@ -20,9 +20,9 @@ node {
 		    
 	sh '''
 			whoami
-			 #sudo cp ./index.html /var/www/html/index.html
+			
 		echo "Files are republished"
-		         #sudo cp ./index.html C:/trainings/Jenkins_Demo/jenkins_training/jenkins-demo
+		        
       #sudo service apache2 restart
 		'''
 			
