@@ -19,7 +19,7 @@ node {
 	    stage('deploy_step') {
 		    
 	sh '''
-			whoami
+
 			
 		echo "Files are republished"
 		        
