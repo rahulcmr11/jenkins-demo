@@ -1,1 +1,1 @@
-This is day 1 of demo on Git.
+This is day 2 of demo on Git. Changed on 20th july
