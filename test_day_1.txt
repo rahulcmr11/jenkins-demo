@@ -1,2 +1,2 @@
-This is day 1 of demo on Git.changes for 19th july session
+This is day 1 of demo on Git.changes for 20th july session
 
