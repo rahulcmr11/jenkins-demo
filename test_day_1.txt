@@ -1,2 +1,2 @@
-This is day 1 of demo on Git. Changes are done 20th july
+This is day 1 of demo on Git. Changes are done 20th july. Merge to master
 
