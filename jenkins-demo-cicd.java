@@ -17,6 +17,8 @@ node {
         }
 	    
 	    stage('deploy_step') {
+			
+			cp C:/Users/rahulranjan5/.jenkins/jenkins-demo/index.html C:/trainings/httpd-2.4.57-win64-VS17/Apache24/htdocs/
 		    
 	println("New file published")
 			
